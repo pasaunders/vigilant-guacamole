@@ -1,0 +1,8 @@
+c:\Users\kaorti\code\microsoft_class\c_sharp\pokeinfo\bin\Debug\netcoreapp1.1\pokeinfo.deps.json
+c:\Users\kaorti\code\microsoft_class\c_sharp\pokeinfo\bin\Debug\netcoreapp1.1\pokeinfo.runtimeconfig.json
+c:\Users\kaorti\code\microsoft_class\c_sharp\pokeinfo\bin\Debug\netcoreapp1.1\pokeinfo.runtimeconfig.dev.json
+c:\Users\kaorti\code\microsoft_class\c_sharp\pokeinfo\bin\Debug\netcoreapp1.1\pokeinfo.dll
+c:\Users\kaorti\code\microsoft_class\c_sharp\pokeinfo\bin\Debug\netcoreapp1.1\pokeinfo.pdb
+c:\Users\kaorti\code\microsoft_class\c_sharp\pokeinfo\obj\Debug\netcoreapp1.1\pokeinfo.AssemblyInfo.cs
+c:\Users\kaorti\code\microsoft_class\c_sharp\pokeinfo\obj\Debug\netcoreapp1.1\pokeinfo.dll
+c:\Users\kaorti\code\microsoft_class\c_sharp\pokeinfo\obj\Debug\netcoreapp1.1\pokeinfo.pdb

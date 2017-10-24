@@ -8,27 +8,22 @@ namespace pokeinfo.Controllers
 {
     public class HomeController : Controller
     {
+        [HttpGet]
+        [Route("")]
         public IActionResult Index()
         {
             return View();
         }
-
-        public IActionResult About()
+        [HttpGet]
+        [Route("pokemon/{pokeid}")]
+        public IActionResult QueryPoke(int pokeid)
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Error()
-        {
+            var PokeInfo = new Dictionary<string, object>();
+            WebRequest.GetPokemonDataAsync(pokeid, ApiResponse => 
+            {
+                PokeInfo = ApiResponse;
+            }).Wait();
+            ViewBag.ThisPoke = PokeInfo;
             return View();
         }
     }
